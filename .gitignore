@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+GTA_Style_Clone/Assets/NoClone.meta
+GTA_Style_Clone/Assets/NoClone/*
