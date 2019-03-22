@@ -23,5 +23,10 @@ public class CharControl : MonoBehaviour
             transform.Rotate(0, horizontalMove, 0);
             transform.Translate(0, 0, verticalMove);
         }
+        else
+        {
+            thePlayer.GetComponent<Animation>().Play("Idle");
+            isRunning = false;
+        }
     }
 }
